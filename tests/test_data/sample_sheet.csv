@@ -1,0 +1,5 @@
+sample_id,fastq_1,fastq_2,subtype,cohort
+TEST_TNBC_1,tests/test_data/reads/tnbc1_R1.fq.gz,tests/test_data/reads/tnbc1_R2.fq.gz,TNBC,test
+TEST_TNBC_2,tests/test_data/reads/tnbc2_R1.fq.gz,tests/test_data/reads/tnbc2_R2.fq.gz,TNBC,test
+TEST_HR_1,tests/test_data/reads/hr1_R1.fq.gz,tests/test_data/reads/hr1_R2.fq.gz,HRpos,test
+TEST_HR_2,tests/test_data/reads/hr2_R1.fq.gz,tests/test_data/reads/hr2_R2.fq.gz,HRpos,test

@@ -1,0 +1,13 @@
+flowchart TD
+  A[Raw FASTQ<br/>TCGA-BRCA + GSE58135] --> B[FastQC]
+  B --> C[Trim Galore]
+  C --> D[STAR 2-pass align<br/>GRCh38 + GENCODE v44]
+  D --> E[featureCounts]
+  E --> M[MultiQC report]
+  E --> F[DESeq2<br/>TNBC vs HR+]
+  F --> G[clusterProfiler<br/>GSEA + ORA]
+  E --> H[Random Forest<br/>top-100 features]
+  H --> I[ROC / confusion matrix<br/>validated on GSE58135]
+  F --> J[Streamlit dashboard]
+  G --> J
+  H --> J

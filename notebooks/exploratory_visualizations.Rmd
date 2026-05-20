@@ -1,0 +1,22 @@
+---
+title: "Exploratory Visualizations — RNA-seq Transcriptomics Pipeline"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(DESeq2)
+library(ggplot2)
+library(pheatmap)
+```
+
+## Overview
+
+This notebook accompanies the production pipeline and is intended for
+interactive exploration of DESeq2 outputs (PCA, sample distance heatmaps,
+top-DEG inspection).
+
+```{r load-results}
+deg <- read.csv("../results/differential_expression/deseq2_deg_results.csv", row.names = 1)
+head(deg[order(deg$padj), ], 20)
+```

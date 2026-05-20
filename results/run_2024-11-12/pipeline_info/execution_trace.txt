@@ -1,0 +1,8 @@
+task_id	name	status	duration	peak_rss
+1	fastqc	COMPLETED	12m	1.1 GB
+2	trim_galore	COMPLETED	9m	0.8 GB
+3	star_align	COMPLETED	1h47m	14.2 GB
+4	featurecounts	COMPLETED	18m	2.4 GB
+5	deseq2	COMPLETED	6m	3.1 GB
+6	clusterprofiler	COMPLETED	4m	2.0 GB
+7	rf_classifier	COMPLETED	2m	0.9 GB

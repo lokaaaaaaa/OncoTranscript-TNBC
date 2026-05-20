@@ -1,0 +1,10 @@
+scikit-learn>=1.4
+pandas>=2.1
+numpy>=1.26
+xgboost>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+streamlit>=1.32
+plotly>=5.20
+lifelines>=0.28
+pytest>=8.0

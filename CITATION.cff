@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use OncoTranscript-TNBC in your research, please cite it as below."
+title: "OncoTranscript-TNBC: Transcriptomic Signatures of Aggressive Triple-Negative Breast Cancer"
+version: 1.0.0
+date-released: 2024-11-12
+url: "https://github.com/lokaaaaaaa/oncotranscript-tnbc-v2"
+repository-code: "https://github.com/lokaaaaaaa/oncotranscript-tnbc-v2"
+license: MIT
+authors:
+  - name: "Loka Veena Sri D."
+    email: "dlokaveenasri@gmail.com"
+    github: "lokaaaaaaa"
+keywords:
+  - TNBC
+  - breast cancer
+  - RNA-seq
+  - DESeq2
+  - Nextflow
+  - machine learning
+  - biomarker discovery
+  - TCGA-BRCA
+abstract: >
+  OncoTranscript-TNBC is a reproducible Nextflow DSL2 pipeline that identifies
+  transcriptional and immune-pathway signatures distinguishing triple-negative
+  breast cancer (TNBC) from hormone-receptor-positive disease using TCGA-BRCA
+  as discovery and GSE58135 as independent validation. It integrates STAR
+  alignment, DESeq2 differential expression, clusterProfiler GSEA, and a
+  Random Forest biomarker classifier achieving validation AUROC of 0.87.

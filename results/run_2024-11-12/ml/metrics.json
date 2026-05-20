@@ -1,0 +1,22 @@
+{
+  "cv_5fold_auroc_mean": 0.969,
+  "cv_5fold_auroc_std": 0.021,
+  "validation_cohort": "GSE58135",
+  "validation_auroc": 0.869,
+  "validation_accuracy": 0.762,
+  "validation_f1": 0.88,
+  "n_features": 100,
+  "model": "RandomForestClassifier(n_estimators=500, max_features='sqrt')",
+  "top_features": [
+    "CXCL10",
+    "STAT1",
+    "ESR1",
+    "FOXA1",
+    "KRT5",
+    "KRT17",
+    "MKI67",
+    "IRF1",
+    "ISG15",
+    "CDK1"
+  ]
+}

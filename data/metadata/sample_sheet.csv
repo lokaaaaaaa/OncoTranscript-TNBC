@@ -1,0 +1,11 @@
+sample_id,fastq_1,fastq_2,subtype,er_status,pr_status,her2_status,stage,age,cohort
+TCGA-BH-A0B3,data/raw/TCGA-BH-A0B3_1.fastq.gz,data/raw/TCGA-BH-A0B3_2.fastq.gz,TNBC,Negative,Negative,Negative,II,54,TCGA-BRCA
+TCGA-A2-A0YE,data/raw/TCGA-A2-A0YE_1.fastq.gz,data/raw/TCGA-A2-A0YE_2.fastq.gz,TNBC,Negative,Negative,Negative,III,61,TCGA-BRCA
+TCGA-AR-A1AR,data/raw/TCGA-AR-A1AR_1.fastq.gz,data/raw/TCGA-AR-A1AR_2.fastq.gz,TNBC,Negative,Negative,Negative,II,47,TCGA-BRCA
+TCGA-E2-A14N,data/raw/TCGA-E2-A14N_1.fastq.gz,data/raw/TCGA-E2-A14N_2.fastq.gz,TNBC,Negative,Negative,Negative,IIIA,58,TCGA-BRCA
+TCGA-BH-A1FE,data/raw/TCGA-BH-A1FE_1.fastq.gz,data/raw/TCGA-BH-A1FE_2.fastq.gz,HRpos,Positive,Positive,Negative,II,63,TCGA-BRCA
+TCGA-A8-A09G,data/raw/TCGA-A8-A09G_1.fastq.gz,data/raw/TCGA-A8-A09G_2.fastq.gz,HRpos,Positive,Positive,Negative,I,55,TCGA-BRCA
+TCGA-D8-A1J9,data/raw/TCGA-D8-A1J9_1.fastq.gz,data/raw/TCGA-D8-A1J9_2.fastq.gz,HRpos,Positive,Negative,Negative,II,67,TCGA-BRCA
+TCGA-E9-A1RD,data/raw/TCGA-E9-A1RD_1.fastq.gz,data/raw/TCGA-E9-A1RD_2.fastq.gz,HRpos,Positive,Positive,Negative,IIB,49,TCGA-BRCA
+GSM1401679,data/raw/GSM1401679_1.fastq.gz,data/raw/GSM1401679_2.fastq.gz,TNBC,Negative,Negative,Negative,II,52,GSE58135
+GSM1401712,data/raw/GSM1401712_1.fastq.gz,data/raw/GSM1401712_2.fastq.gz,HRpos,Positive,Positive,Negative,II,60,GSE58135

@@ -1,0 +1,34 @@
+name: rnaseq-pipeline-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - r-base=4.3.1
+  - nextflow=23.10.1
+  - fastqc=0.12.1
+  - multiqc=1.19
+  - trim-galore=0.6.10
+  - star=2.7.11a
+  - subread=2.0.6
+  - samtools=1.18
+  - gxx_linux-64=13.2.0
+  - r-essentials=4.3
+  - r-matrix=1.6_1
+  - r-ggplot2=3.4.4
+  - r-pheatmap=1.0.12
+  - r-ggrepel=0.9.4
+  - r-plotly=4.10.3
+  - r-biocmanager=1.30.22
+  - bioconductor-deseq2=1.40.2
+  - bioconductor-clusterprofiler=4.8.3
+  - bioconductor-org.hs.eg.db=3.17.0
+  - bioconductor-enrichplot=1.20.0
+  - pandas=2.1.4
+  - numpy=1.26.2
+  - scikit-learn=1.3.2
+  - xgboost=2.0.2
+  - matplotlib=3.8.2
+  - seaborn=0.13.0
+  - streamlit=1.29.0
